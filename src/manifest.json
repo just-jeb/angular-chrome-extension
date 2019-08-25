@@ -1,0 +1,6 @@
+{
+    "name": "Great Extension",
+    "version": "1.0",
+    "description": "Build an Extension with Angular",
+    "manifest_version": 2
+}
