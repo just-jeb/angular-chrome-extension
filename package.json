@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng build --watch",
+    "start": "ng build --watch --configuration=dev",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -44,6 +44,7 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.5.3"
+    "typescript": "~3.5.3",
+    "webpack-extension-reloader": "^1.1.0"
   }
 }

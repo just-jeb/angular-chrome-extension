@@ -37,6 +37,11 @@
             "scripts": []
           },
           "configurations": {
+            "dev": {
+              "customWebpackConfig": {
+                "path": "./custom-webpack-dev.config.js"
+              }
+            },
             "production": {
               "fileReplacements": [
                 {
