@@ -9,7 +9,8 @@
     ],
     "background": {
         "scripts": [
-            "background.js"
+            "background.js",
+            "runtime.js"
         ]
     },
     "page_action": {
