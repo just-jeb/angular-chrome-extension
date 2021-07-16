@@ -69,7 +69,7 @@
               "sourceMap": true,
               "namedChunks": true,
               "customWebpackConfig": {
-                "path": "./custom-webpack-dev.config.js"
+                "path": "./custom-webpack-dev.config.ts"
               }
             }
           },
