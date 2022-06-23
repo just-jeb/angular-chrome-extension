@@ -3,7 +3,7 @@
 This is a demonstration project for developing Chrome extension within Angular ecosystem. 
 
 Features: 
- - Angular 12
+ - Angular 14
  - Google Chrome Extension Manifest v2 (v3 will be supported soon)
  - Background/Content script live reload
 
