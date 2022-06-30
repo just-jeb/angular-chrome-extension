@@ -39,5 +39,6 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.6.4",
     "webpack-ext-reloader": "^1.1.8"
-  }
+  },
+  "packageManager": "yarn@3.2.1"
 }
