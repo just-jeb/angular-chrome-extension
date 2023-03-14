@@ -6,11 +6,11 @@ module.exports = {
   ...config,
   mode: 'development',
   plugins: [
-    new ExtensionReloader({
-      reloadPage: true, // Force the reload of the page also
-      entries: { // The entries used for the content/background scripts or extension pages
-        background: 'background',
-      }
-    })
+    // new ExtensionReloader({
+    //   reloadPage: true, // Force the reload of the page also
+    //   entries: { // The entries used for the content/background scripts or extension pages
+    //     background: 'background',
+    //   }
+    // })
   ]
 } as Configuration;

@@ -2,19 +2,18 @@
   "name": "Great Extension",
   "version": "1.0",
   "description": "Build an Extension with Angular",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "permissions": [
       "activeTab",
       "webNavigation",
-      "storage"
+      "storage",
+      "scripting"
   ],
   "background": {
-      "scripts": [
-          "background.js",
-          "runtime.js"
-      ]
+    "service_worker": "background.js",
+    "type": "module"
   },
-  "page_action": {
+  "action": {
       "default_popup": "index.html"
   }
 }
