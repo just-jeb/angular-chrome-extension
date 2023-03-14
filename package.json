@@ -28,6 +28,7 @@
     "@angular-devkit/build-angular": "^14.0.2",
     "@angular/cli": "^14.0.2",
     "@angular/compiler-cli": "^14.0.3",
+    "@reorx/webpack-ext-reloader": "^1.2.0",
     "@types/chrome": "^0.0.190",
     "@types/jasmine": "~3.8.0",
     "@types/node": "^16.11.41",
@@ -37,8 +38,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
-    "typescript": "~4.6.4",
-    "webpack-ext-reloader": "^1.1.9"
+    "typescript": "~4.6.4"
   },
   "packageManager": "yarn@3.2.1"
 }
